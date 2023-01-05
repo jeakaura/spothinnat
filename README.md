@@ -1,46 +1,28 @@
-# Getting Started with Create React App
+# Spothinta ohjelmointitehtävä
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Sovelluksen ajaminen
 
-In the project directory, you can run:
+Sovelluksen moduulit pitäisi latautua projektin juuressa komennolla ```npm install```. 
 
-### `npm start`
+Json-serverin saa päälle komennolla ```npx json-server --port=3001 --watch data/spot-data.json```.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Tämän jälkeen sovelluksen voi käynnistää toisessa ikkunassa komennolla ```npm start```.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Kuvaus
 
-### `npm test`
+Aloitin luomalla sovelluksen yllämainitulla tavalla. Tarvittavien komponenttien luominen sujui ongelmitta, mutta toiminnallisuuksien tekemisissä oli tilanteesta riippuen pienempää tai isompaa punakynää. Ne kuitenkin ratkesivat dokumentaation lukemisella, googlaamalla ja konsolin suurella käytöllä. Harmaita hiuksia syntyi kaavion luomisessa, mitä en ollut koskaan tehnyt. Onneksi siinäkin Google auttoi nopeasti ja neuvoi Chart.js:n pariin.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Datan pyörittely ja välittäminen meinasi aluksi olla hieman tahmeaa, mutta tarpeeksi kun konsolissa seurasi sen reittejä ja käyttäytymistä, se alkoi luonnistumaan. Lopulta mitä simppelimpi, sen toimivampi.
 
-### `npm run build`
+TypeSript oli lopulta oikein mieluinen lisä tähän. Loin funktiot datan käsittelyyn. Omien funktioiden tekeminen oli mukavaa, koska pääsi myös hieman käyttämään omia oppeja. Tosin niistä tuskin aivan pommin varmoja tuli. Kaikkeen tähän meni arviolta yhteenlaskettuna työpäivän verran aikaa.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Lopulta käytin aikaa ulkoasuun, johon sai uppoamaan ehkä puolikkaan työpäivän verran aikaa. Koitin ottaa inspiraatiota netistä erilaisista "dashboard"-sivuista. Loin sovelluksesta responsiivisen. Sovelluksella on omat tyylinsä tietokoneelle, tabletille ja puhelimelle. Ainoa ongelma on kaavion kanssa, joka ei ikkunaa isontaessa pysy automaattisesti mukana. Tämä kuitenkin korjaantuu päivittämällä sivun.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Uskon että vielä testien tekemiseen olisi saanut lisää laitettua aikaa, jos niitä olisi alkanut tekemään. Jätin ne tosin tekemättä, sillä niitä ei erikseen vaadittu. Tiedän kuitenkin, että se on tärkeä osa oikeaa kehittämistä. Sen verran testasin, että sovellus ei ihan mene jumiin jos dataa ei saataisi.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Kuvia
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="työpöytä.png" alt="työpöytä" width="500"/>
+<img src="mobiili.png" alt="mobiili" width="200"/>
