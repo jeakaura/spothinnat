@@ -22,6 +22,8 @@ Lopulta käytin aikaa ulkoasuun, johon sai uppoamaan ehkä puolikkaan työpäiv�
 
 Uskon että vielä testien tekemiseen olisi saanut lisää laitettua aikaa, jos niitä olisi alkanut tekemään. Jätin ne tosin tekemättä, sillä niitä ei erikseen vaadittu. Tiedän kuitenkin, että se on tärkeä osa oikeaa kehittämistä. Sen verran testasin, että sovellus ei ihan mene jumiin jos dataa ei saataisi.
 
+edit. Lisäys: testittömyys jäi rassaamaan mieltä, joten lisäsin hieman testailua. Testit voi ajaa komennolla ```npm run test```.
+
 ## Kuvia
 
 <img src="työpöytä.png" alt="työpöytä" width="500"/>
